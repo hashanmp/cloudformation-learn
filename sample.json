@@ -1,0 +1,164 @@
+{
+  "AutoScalingGroups": [
+    {
+      "AutoScalingGroupName": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:909082630066:autoScalingGroup:184cc483-3442-4473-abab-f97b76dd54a8:autoScalingGroupName/Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+      "LaunchConfigurationName": "Application-CDE-SS-Jenkins-Master-LaunchConfig-1MGHM8JB5WCOO",
+      "MinSize": 1,
+      "MaxSize": 1,
+      "DesiredCapacity": 1,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "us-east-1a",
+        "us-east-1b",
+        "us-east-1c"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [
+        "arn:aws:elasticloadbalancing:us-east-1:909082630066:targetgroup/jenkins-master/4d54bcbb05e5ccc2"
+      ],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 0,
+      "Instances": [
+        {
+          "InstanceId": "i-0e390079145b3a912",
+          "InstanceType": "m4.2xlarge",
+          "AvailabilityZone": "us-east-1a",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "ProtectedFromScaleIn": true
+        }
+      ],
+      "CreatedTime": "2019-10-11T15:47:40.898000+00:00",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-0b9707f7fa73d5a7e,subnet-07d3926a37c5c918c,subnet-0bc6b3db5ff0ae7a1",
+      "EnabledMetrics": [],
+      "Tags": [
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "2WTAGGER",
+          "Value": "un_manage",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Application_Name",
+          "Value": "CDE",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Approver",
+          "Value": "Campbell.John@corp.sysco.com",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Automation:CloudCustodian:Status",
+          "Value": "AutoScaleGroup does not meet org policy: suspend@2021/04/28",
+          "PropagateAtLaunch": false
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Environment",
+          "Value": "Shop-Jenkins-Master",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Managed_By",
+          "Value": "LABS",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Name",
+          "Value": "Application-CDE-SS-Jenkins-Master",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Owner",
+          "Value": "Campbell.John@corp.sysco.com",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "PO_Number",
+          "Value": "700003106",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Project_ID",
+          "Value": "001911",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Technical:ApplicationID",
+          "Value": "",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Technical:ApplicationName",
+          "Value": "CDE",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Technical:Environment",
+          "Value": "Jenkins",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "Technical:PlatformOwner",
+          "Value": "Campbell.John@corp.sysco.com",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "AutoScalingGroup",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-east-1:909082630066:stack/Application-CDE-SS-Jenkins-Master/fe6590a0-ec3d-11e9-9644-0a20b68b404c",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "Application-CDE-SS-Jenkins-Master-AutoScalingGroup-1Q2DYFDSPOJ64",
+          "ResourceType": "auto-scaling-group",
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "Application-CDE-SS-Jenkins-Master",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "Default"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::909082630066:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+    }
+  ]
+}

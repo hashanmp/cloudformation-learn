@@ -1,0 +1,17 @@
+---
+name: ""
+region: "us-east-1"
+parameters:
+  EnvironmentName: "LSEG"
+#  VpcCIDR: ""
+#  PublicSubnet1CIDR:
+#  PublicSubnet2CIDR: ""
+#  PrivateSubnet1CIDR: ""
+#  PrivateSubnet2CIDR: ""
+  MasterUsername: lseg
+  MasterUserPassword: "p0ssw0rd@123#"
+  ParameterGroup: ""
+  HostedZoneName:
+  WriterDNSName: "lseg.rds"
+  ReaderDNSName: "lseg.rds.reader"
+  serverAMI: "ami-ftwergw46353q"
