@@ -26,4 +26,6 @@ reference: https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation
 4. Ensure the solution is cost effective.
 5. Solution you suggest should
 
-
+### Cloudformation run cli
+https://github.com/aws/aws-cli/issues/2275#issuecomment-667314081
+TODO : change parameers
